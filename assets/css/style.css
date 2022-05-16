@@ -165,4 +165,12 @@
     padding: 5px;
     
 }
-
+.copyright{
+    margin: 20px 0;
+    align-items: inherit;
+}
+.copyright{
+    float: left;
+    font: 12px/1em "CenturySchoolbookBT-Roman";
+    color:#333333;
+}
