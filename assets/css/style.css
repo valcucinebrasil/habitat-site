@@ -38,3 +38,12 @@ a{
     padding: 125px;
     margin: 125px;
 }
+
+.social{
+    display: flex;
+    flex-direction: row;
+    float: inherit;
+    align-items: center;
+    margin:15px;
+    justify-content: space-between;
+}
