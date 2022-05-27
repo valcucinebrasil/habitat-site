@@ -1,14 +1,16 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 .body{
   display: block;
   text-align: center;
-  width: auto;
+  width: 100%;
   height: auto;
   justify-content: space-between;
   max-width: 950px;
+  min-width: 100vh;
 }
 .logo{
   position: relative;
@@ -21,6 +23,7 @@
 }
 .nav{
   background: #ffff;
+  width: 50%;
 }
 .nav_bar li a{
   display: inline;
