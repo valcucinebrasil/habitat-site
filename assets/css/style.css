@@ -48,16 +48,13 @@
   
 }
 .slide{
-  min-width: 50%;
   text-align: center;
   height: 250;
   background-color: rgba(58, 57, 57, 0.363);
-  min-width: 50%;
 }
 .slide-img{
   width: 100%;
   height: 655px;
-  min-width: 50%;
   
   
 }
