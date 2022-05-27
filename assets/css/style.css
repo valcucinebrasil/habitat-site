@@ -8,7 +8,9 @@
   /* .menu { width:400px; } */
   }
   @media only screen and (max-width: 480px) {
-    
+    img {
+      width: 100%;
+    }
     }
 .body{
   display: block;
