@@ -3,10 +3,12 @@
   padding: 0;
 }
 .body{
+  display: flex;
   text-align: center;
   width: 1200px;
   height: auto;
   justify-content: space-between;
+  max-width: 950px;
 }
 .logo{
   position: relative;
