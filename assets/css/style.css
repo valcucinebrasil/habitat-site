@@ -70,14 +70,17 @@
 
 .text-area{
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: rgba(0, 0, 0, 0.89);
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 540;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: 540;
   
 }
-.arquitetos{
-  
+.arquitetos{  
   padding: 15px;
   width: 195px;
   height: 200px;
