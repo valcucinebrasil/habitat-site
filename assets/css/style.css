@@ -3,7 +3,7 @@
   padding: 0;
 }
 .body{
-  display: flex;
+  display: block;
   text-align: center;
   width: auto;
   height: auto;
@@ -16,6 +16,7 @@
   width: 399px;
   padding: 5px;
   margin: 2px;
+  max-width: max-content;
  
 }
 .nav{
@@ -36,12 +37,14 @@
 }
 .slide{
   text-align: center;
-  height: auto;
+  height: 250;
   background-color: rgba(58, 57, 57, 0.363);
 }
 .slide-img{
-  width: 1170px;
-  height: 455px;
+  width: 500px;
+  height: 250px;
+  max-width: 1170px;
+  max-height: 455px;
   
   
 }
@@ -83,6 +86,7 @@
   
 }
 .arquitetos{  
+  text-align: center;
   padding: 15px;
   width: 195px;
   height: 200px;
