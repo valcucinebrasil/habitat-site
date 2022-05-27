@@ -49,17 +49,27 @@
   min-width: 50%;
   
 }
+.fundo-slide{
+  display: block;
+  
+}
 .slide{
   text-align: center;
   height: 250;
   background-color: rgba(58, 57, 57, 0.363);
+  width: 100%;
+  position: relative;
+}
+#slide img{
+  width: 100%;
 }
 .slide-img{
-  width: auto;
+  width: 100%;
   height: auto;
   
-  
 }
+
+
 
 .wrapper{
   display: flex;
