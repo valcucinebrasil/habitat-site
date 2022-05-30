@@ -33,7 +33,7 @@ body{
   color: black;
   padding: 5px;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .fundo-slide{
@@ -52,12 +52,16 @@ body{
   padding: 5px;
   margin: 5px;
   width: 1200px;
+  height: 499px;
   align-items: center;
+  border-radius: 45px;
 }
 .text-area-principal{
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 35px;
+  margin: 15px;
   gap: 32px;
 }
 
@@ -70,6 +74,8 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 35px;
+  margin: 15px;
   gap: 32px;
 }
 .text-area-secundario-principal{
@@ -86,7 +92,8 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 16px;
+  padding: 35px;
+  margin: 15px;
   gap: 32px;
 }
 .arquitetos{
