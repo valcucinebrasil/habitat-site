@@ -205,6 +205,7 @@ header ul li a{
   z-index: 9;
 }
 .foto{
+  
   width: 620px;
   height: 350px;
 }
@@ -219,5 +220,82 @@ header ul li a{
   left: -30px;
   width: 1px;
   height: 100%;
-  
+  background: linear-gradient(to top, transparent,#fff);
+}
+.left-right-sec:nth-child(even) .text{
+  margin-right: -65px;
+  text-align: right;
+}
+.left-right-sec:nth-child(even) .text-inner{
+  margin: 60px 190px 0 0;
+}
+.left-right-sec:nth-child(even) .text-inner:before{
+  left: inherit;
+  right: -30px;
+}
+.armentano{
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+}
+.sec3{
+  padding: 150px 0 0;
+}
+.sec3 h2{
+  text-transform: uppercase;
+  max-width: 60%;
+}
+.sec3-slider{
+  margin-top: 90px;
+}
+.slick-arrow{
+  position: absolute;
+  top: -160px;
+}
+.slick-prev{
+  left: inherit;
+  right: 180px;
+}
+.slick-next{
+  right: 90px;
+}
+
+.sec4{
+  padding: 100px 0;
+}
+.sec4 h2{
+  text-transform: uppercase;
+}
+.sec4-boxes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 90px;
+}
+.box{
+  position: absolute;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 23%;
+  min-height: 270px;
+  border: 1px solid #fff;
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+.box h6{
+  font-family: 'Space Grotesk';
+  font-size: 18px;
+  font-weight: 400px;
+}
+.sec4-boxes .img{
+position: absolute;
+top: 0;
+left: 0;
+z-index: -1;
+opacity: 0;
+transition: all ease 1s;
+}
+.box:hover .img{
+  opacity: 1;
 }
