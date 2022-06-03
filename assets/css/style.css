@@ -212,3 +212,12 @@ header ul li a{
   position: relative;
   margin: 55px 0 0 190px;
 }
+.sec2 .text-inner:before{
+  content: '';
+  position: absolute;
+  top: 8px;
+  left: -30px;
+  width: 1px;
+  height: 100%;
+  
+}
