@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2? family= Nanum+Gothic & display=swap');
+
 *{
   margin: 0;
   box-sizing: border-box;
@@ -6,11 +8,21 @@
 body{
   color: #fff;
   background-color: #000;
-  font-family: Space Grotesk;
+  font-family: 'Space Grotesk';
 }
 h1,h2,h3,h4,h5,h6{
-  font-family: Butler;
+  font-family: 'botler';
 }
+h1{
+  font-size: 70px;
+}
+h2{
+  font-size: 36px;
+}
+h3{
+  font-size: 26px;
+}
+
 .container{
   max-width: 1166px;
   margin: 0 auto;
@@ -25,4 +37,178 @@ header{
   justify-content: space-between;
   align-items: center;
   z-index: 999;
+}
+header ul{
+  padding-left: 0;
+}
+header ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+header ul li a{
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.banner{
+  height: 100vh;
+  background: url(/img/slide/011.png) no-repeat;
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  align-items: flex-end;
+}
+.logo{
+  height: 75px;
+  width: 399px;
+}
+.habitat{
+  height: 75px;
+  width: 399px;
+}
+.banner .text{
+  text-align: center;
+  padding-bottom: 100px;
+}
+.banner h1{
+  line-height: 80px;
+  font-weight: 300px;
+  margin-bottom: 10px;
+}
+/*Global Button Style*/
+.btn{
+  position: relative;
+  display: inline-block;
+  width: 250px;
+  height: 60px;
+  background-color: rgb(255, 255, 255);
+  color: #000;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  line-height: 60px;
+  z-index: 9;
+  margin-top: 50px;
+  transition: all ease 0.5s;
+
+}
+.btn:before{
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background-color: #000;
+  opacity: .9;
+  z-index: -1;
+  transition: all ease 0.5s;
+}
+.btn:hover{
+  color: #fff;
+}
+.btn:hover:before{
+  top: 0;
+  height: 100%;
+}
+
+.brand-logo{
+  padding: 30px 0;
+}
+.brand-logo-inner{
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.valcucine{
+  width: 160px;
+}
+.wolf{
+  width: 100px;
+}
+.subzero{
+  width: 130px;
+}
+.cove{
+  width: 100px;
+}
+.sec1{
+  position: relative;
+  padding: 80px 0;
+}
+.se1 h3{
+  text-transform: uppercase;
+  line-height: 40px;
+}
+.sec1 p{
+  line-height: 32px;
+}
+.sec1-inner{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+.sec1 .text{
+  width: 47%;
+
+}
+.sec1 .text-left{
+  text-align: right;
+}
+.sec1 .text-right{
+  text-align: left;
+}
+.sec1:before{
+  content:'';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(to left, transparent, #fff, transparent);
+}
+.sec1:after{
+  content:'';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(to left, transparent, #fff, transparent);
+}
+.sec2{
+  padding: 100px 0 0;
+}
+.sec2 h2{
+  text-transform: uppercase;
+}
+.sec2 p{
+  line-height: 30px;
+}
+.sec2-inner{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.sec2-inner .img{
+  width: auto;
+}
+.sec2-inner .text{
+  width: 50%;
+  margin-left: -65px;
+  z-index: 9;
+}
+.foto{
+  width: 620px;
+  height: 350px;
+}
+.sec2 .text-inner{
+  position: relative;
+  margin: 55px 0 0 190px;
 }
