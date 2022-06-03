@@ -275,7 +275,7 @@ header ul li a{
 .box{
   position: absolute;
   display: flex;
-  align-content: center;
+  align-items: center;
   justify-content: center;
   width: 23%;
   min-height: 270px;
@@ -298,4 +298,21 @@ transition: all ease 1s;
 }
 .box:hover .img{
   opacity: 1;
+}
+
+.img-down{
+  height: 440px;
+  width:250px ;
+}
+.footer{
+  position: relative;
+  padding: 50px 0;
+}
+.footer-inner{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footer-inner .col{
+  padding-right: 50px;
 }
