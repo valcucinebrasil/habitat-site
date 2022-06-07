@@ -8,42 +8,44 @@
     <title>Habitat Naturale</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://unpkg.com/rolly.js@0.2.1/css/style.css">
 </head>
 
 <body>
-    <main>
-    <header>
-        <div class="left-menu">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Coleções</a></li>
-                <li><a href="#">Projetos</a></li>
-               </ul> 
-        </div>
-        <div class="logo">
-            <img class="habitat" src="./img/LOGO/Ativo 8.png" alt="Logo Habitat Naturale">
-        </div>
-        <div class="right-menu">
-            <ul>
-            <li><a href="#">Parceiros</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contato</a></li>
-            </ul>
-        </div>
-</header>
-<section class="banner">
+    <main class="app">
+        <header data-aos="fade-up">
+            <div class="left-menu">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./colecoes.html">Coleções</a></li>
+                    <li><a href="./projetos.html">Projetos</a></li>
+                   </ul> 
+            </div>
+            <div class="logo">
+                <img class="habitat" src="./img/LOGO/Ativo 8.png" alt="Logo Habitat Naturale">
+            </div>
+            <div class="right-menu">
+                <ul>
+                <li><a href="./parceiros.html">Parceiros</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="./contato.html">Contato</a></li>
+                </ul>
+            </div>
+    </header>
+<section class="banner" data-scene >
     <div class="container">
-        <div class="text">
-            <h1>Nosso compromisso é <br>..........</h1>
-            <p>Conheça nosso ........</p>
+        <div class="text" data-aos="zoom-out" data-aos-delay="1000">
+            <h1>Sustentabilidade além do espaço e do tempo</h1>
+            <p>Utilizamos os recursos do planeta de forma consciente, com foco na sustentabilidade e respeito à natureza.</p>
             <a href="#" class="btn">Leia Mais</a>
         </div>
     </div>
 
 </section>
-<section class="brand-logo">
+<section class="brand-logo" data-scene>
     <div class="container">
-        <div class="brand-logo-inner">
+        <div class="brand-logo-inner" data-aos="fade-up">
             <div class="item"><img class="valcucine" src="./img/LOGO/logo-valcucine.png" alt=""></div>
             <div class="item"><img class="wolf" src="./img/LOGO/logo-wolf.png" alt=""></div>
             <div class="item"><img class="subzero"  src="./img/LOGO/logo-subzero.png" alt=""></div>
@@ -52,8 +54,8 @@
     </div>
 
 </section>
-<section class="sec1">
-    <div class="container">
+<section class="sec1" data-scene>
+    <div class="container" data-aos="fade-up">
             <div class="sec1-inner">
                 <div class="text text-left">
                 <h3>commodo</h3>
@@ -65,14 +67,14 @@
     </div>
 </section>
 
-<section class="sec2 left-right-sec">
+<section class="sec2 left-right-sec" data-scene>
 <div class="container">
         <div class="sec2-container">
             <div class="img">
-<!--Alterar--> <div class="img"><img class="foto" src="./img/slide/001.png" alt=""></div>
+<!--Alterar--> <div class="img" data-aos="fade-right"><img class="foto" src="./img/slide/001.png" alt=""></div>
             </div>
             <div class="text">
-                <div class="text-inner">
+                <div class="text-inner" data-aos="fade-left">
                  <h2>Vero aaaa</h2>
                  <p>aaaaaqui</p>
                 <a href="#" class="btn">Leia Mais</a>
@@ -83,28 +85,91 @@
     </div>
 </div>
 </section>
-<section class="sec2 left-right-sec">
+<section class="sec2 left-right-sec" data-scene>
 <div class="container">
     <div class="sec2-container">
         <div class="text">
-            <div class="text-inner">
+            <div class="text-inner" data-aos="fade-right">
              <h2>Vero aaaaaaaa</h2>
              <p>aaaaaquiaaaaaaaaaaaaaa</p>
              <a href="#" class="btn">Leia Mais</a>
             </div>
         </div>
-        <div class="img">
+        <div class="img" data-aos="fade-left">
      <!--Alterar--> <div class="img"><img class="foto"src="./img/slide/004.png" alt=""></div>
         </div>
 
     </div>
 </div>
 </section>
-<!--Aqui começa o Slide-->
-<section class="sec3">
+<!--Aqui começa o grid -->
+<section class="sec4" data-scene>
     <div class="container">
-        <div class="sec3-inner">
-            <h2>Iaaaaa</h2><!--Alterar Aqui-->
+        <div class="container">
+            <div class="sec4-inner" data-aos="fade-right">
+                <h2>Novidades</h2>
+            </div>
+            <div class="sec4-boxes" data-aos="fade-up">
+                <div class="box">
+                    <h6>Asperioses</h6>
+                    <div class="img"> 
+                        <img src="./img/temp/button/collection-img1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="box">
+                    <h6>Asperioses</h6>
+                    <div class="img"> 
+                        <img src="./img/temp/button/collection-img1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="box">
+                    <h6>Asperioses</h6>
+                    <div class="img"> 
+                        <img src="./img/temp/button/collection-img1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="box">
+                    <h6>Asperioses</h6>
+                    <div class="img"> 
+                        <img src="./img/temp/button/collection-img1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="box">
+                    <h6>Asperioses</h6>
+                    <div class="img"> 
+                        <img src="./img/temp/button/collection-img1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="box">
+                    <h6>Asperioses</h6>
+                    <div class="img"> 
+                        <img src="./img/temp/button/collection-img1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="box">
+                    <h6>Asperioses</h6>
+                    <div class="img"> 
+                        <img src="./img/temp/button/collection-img1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="box">
+                    <h6>Asperioses</h6>
+                    <div class="img"> 
+                        <img src="./img/temp/button/collection-img1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Aqui finaliza o grid -->
+
+
+<!--Aqui começa o Slide dos arquitetos-->
+<section class="sec3" data-scene>
+    <div class="container">
+        <div class="sec3-inner" data-aos="fade-right">
+            <h2 class="sec3-inner-text">ARQUITETOS</h2><!--Alterar Aqui-->
             <div class="sec-slider">
                 <div class="item">
                     <img class="armentano" src="./img/arquitetos/casacor-19.jpg" alt="-COVER">
@@ -118,108 +183,68 @@
                 <div class="item">
                     <img class="armentano" src="./img/arquitetos/Joao_Armentano_6010_bw-scaled-e1602016853263-1024x438.jpg" alt="-COVER">
                 </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="sec4">
-    <div class="container">
-        <div class="sec4-inner">
-            <h2>NEWS</h2>
-            <div class="sec4-boxes">
-                <div class="box">
-                    <h6>Veja Aqui</h6>
-                    <div class="img">
-                        <img class="img-down" src="./img/projetos/275861619_678984486656004_4889762177964098711_n.jpg" alt="">
-                    </div>
+                <div class="item">
+                    <img class="armentano" src="./img/temp/arq/slide2.jpg" alt="-COVER">
                 </div>
-            </div>
-            <div class="sec4-boxes">
-                <div class="box">
-                    <h6>Veja Aqui</h6>
-                    <div class="img">
-                        <img class="img-down" src="./img/projetos/276005140_1874002109469986_7191331410844634239_n.jpg" alt="">
-                    </div>
+                <div class="item">
+                    <img class="armentano" src="./img/temp/arq/slide1.jpg" alt="-COVER">
                 </div>
-            </div>
-            <div class="sec4-boxes">
-                <div class="box">
-                    <h6>Veja Aqui</h6>
-                    <div class="img">
-                        <img class="img-down" src="./img/projetos/Cape-Town-Valcucine-kitchen-Malan-Vorster-Architecture-Interior-Design-Photo-Adam-LetchCape-Town-Valcucine-kitchen-South-Africa2.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-                <div class="box">
-                    <h6>Veja Aqui</h6>
-                    <div class="img">
-                        <img class="img-down" src="./img/projetos/275861619_678984486656004_4889762177964098711_n.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="sec4-boxes">
-                <div class="box">
-                    <h6>Veja Aqui</h6>
-                    <div class="img">
-                        <img class="img-down" src="./img/projetos/276005140_1874002109469986_7191331410844634239_n.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="sec4-boxes">
-                <div class="box">
-                    <h6>Veja Aqui</h6>
-                    <div class="img">
-                        <img class="img-down" src="./img/projetos/Cape-Town-Valcucine-kitchen-Malan-Vorster-Architecture-Interior-Design-Photo-Adam-LetchCape-Town-Valcucine-kitchen-South-Africa2.jpg" alt="">
-                    </div>
+                <div class="item">
+                    <img class="armentano" src="./img/temp/arq/slide1.jpg" alt="-COVER">
                 </div>
             </div>
         </div>
     </div>
-
 </section>
+<!--Finaliza aqui o arquitetos-->
 
 
+<!--Inicia aqui o rodapé-->
 
 
-<footer>
+<footer data-scene>
     <div class="container">
         <div class="footer-inner">
             <div class="col">
-                <img class="habitat" src="./img/LOGO/Ativo 8.png" alt="">
+                <img class="habitat"src="./img/LOGO/Ativo 8.png" alt="Logo Valcucine">
             </div>
             <div class="col">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Projetos</a></li>
-                    <li><a href="#">Coleções</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">COLEÇÕES</a></li>
+                    <li><a href="#">PROJETOS</a></li>
+                    <li><a href="#">PARCEIROS</a></li>
                 </ul>
             </div>
-        </div>
             <div class="col">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Projetos</a></li>
-                    <li><a href="#">Coleções</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">NOVIDADES</a></li>
+                    <li><a href="#">ARQUITETOS</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">CONTATO</a></li>
                 </ul>
             </div>
-        </div>
             <div class="col">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Projetos</a></li>
-                    <li><a href="#">Coleções</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">INSTAGRAM</a></li>
+                    <li><a href="#">LINKEDIN</a></li>
+                    <li><a href="#">YOUTUBE</a></li>
+                    <li><a href="#">PINTEREST</a></li>
                 </ul>
             </div>
         </div>
     </div>
 </footer>
+<div class="copyright" data-scene>
+    <div class="container">
+        <p>©  2022 Habitat Naturale | Kitchens Luxury by. <a href="#">Zoé Mateus</a></p>
+    </div>
+</div>
 </main>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script src="https://unpkg.com/rolly.js@0.2.1/dist/rolly.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 <script>
  
 $('.sec-slider').slick({
@@ -229,6 +254,16 @@ $('.sec-slider').slick({
   speed:1500
 });
 
+    const r = rolly({
+    view: document.querySelector('.app'),
+    native: true,
+    // other options
+    });
+    r.init();
+
+AOS.init({
+    duration:1500 //global duration
+});
 </script>
 </body>
 </html>

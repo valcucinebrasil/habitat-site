@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2? family= Nanum+Gothic & display=swap');
 
+
 *{
   margin: 0;
   box-sizing: border-box;
@@ -9,6 +10,7 @@ body{
   color: #fff;
   background-color: #000;
   font-family: 'Space Grotesk';
+  width: 100%;
 }
 h1,h2,h3,h4,h5,h6{
   font-family: 'botler';
@@ -53,6 +55,8 @@ header ul li a{
 }
 
 .banner{
+  min-width: 100%;
+  max-width: 100%;
   height: 100vh;
   background: url(/img/slide/011.png) no-repeat;
   background-size: cover;
@@ -61,18 +65,26 @@ header ul li a{
   align-items: flex-end;
 }
 .logo{
-  height: 75px;
-  width: 399px;
+  
+  height: 35px;
+  width: 400px;
 }
 .habitat{
-  height: 75px;
-  width: 399px;
+  height: 35px;
+  width:400px;
+  min-width: 100%;
+  max-width: 100%;
+  gap: 32px;
 }
 .banner .text{
+  min-width: 100%;
+  max-width: 100%;
   text-align: center;
   padding-bottom: 100px;
 }
 .banner h1{
+  min-width: 100%;
+  max-width: 100%;
   line-height: 80px;
   font-weight: 300px;
   margin-bottom: 10px;
@@ -101,10 +113,11 @@ header ul li a{
   left: 0;
   width: 100%;
   height: 0;
-  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.301);
   opacity: .9;
   z-index: -1;
   transition: all ease 0.5s;
+  border-radius:40px ;
 }
 .btn:hover{
   color: #fff;
@@ -182,7 +195,7 @@ header ul li a{
   background: linear-gradient(to left, transparent, #fff, transparent);
 }
 .sec2{
-  padding: 100px 0 0;
+  padding: 60px 0 0;
 }
 .sec2 h2{
   text-transform: uppercase;
@@ -198,14 +211,19 @@ header ul li a{
 }
 .sec2-inner .img{
   width: auto;
+ 
 }
 .sec2-inner .text{
-  width: 50%;
-  margin-left: -65px;
-  z-index: 9;
+  width: 60%;
+  margin-left: -85px;
+  z-index: 10;
+}
+.sec2-container{
+  display: flex;
+  gap: 32px;
+  margin: 15px;
 }
 .foto{
-  
   width: 620px;
   height: 350px;
 }
@@ -234,19 +252,22 @@ header ul li a{
   right: -30px;
 }
 .armentano{
-  width: 300px;
-  height: 300px;
-  border-radius: 150px;
+  width: 390px;
+  height: 460px;
+  padding: 10px;
+  border-radius: 0px;
+  margin: 5px;
 }
 .sec3{
   padding: 150px 0 0;
 }
 .sec3 h2{
   text-transform: uppercase;
-  max-width: 60%;
+  max-width: 100%;
 }
 .sec3-slider{
   margin-top: 90px;
+  
 }
 .slick-arrow{
   position: absolute;
@@ -259,7 +280,60 @@ header ul li a{
 .slick-next{
   right: 90px;
 }
+.sec3-inner-text{
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+  width: 100%;
+ 
+}
+.btn{
+  border-radius: 45px;
+}
+footer{
+  position: relative;
+  padding: 70px 0;
+  margin: 35px;
+}
+.footer-inner{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footer-inner .col{
+  padding-right: 70px;
+}
 
+footer ul{
+  margin-left: 0;
+}
+footer ul li{
+  list-style: none;
+  margin-bottom: 30px;
+}
+footer ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}
+footer:before{
+  content:'';
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(to left, transparent,#fff, transparent);
+}
+footer:after{
+  content:'';
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(to left, transparent,#fff, transparent);
+}
 .sec4{
   padding: 100px 0;
 }
@@ -273,7 +347,7 @@ header ul li a{
   margin-top: 90px;
 }
 .box{
-  position: absolute;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -286,33 +360,20 @@ header ul li a{
 .box h6{
   font-family: 'Space Grotesk';
   font-size: 18px;
-  font-weight: 400px;
+  font-weight: 400;
+
 }
 .sec4-boxes .img{
-position: absolute;
-top: 0;
-left: 0;
-z-index: -1;
-opacity: 0;
-transition: all ease 1s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0;
+  transform: all ease 1s;
 }
 .box:hover .img{
   opacity: 1;
 }
-
-.img-down{
-  height: 440px;
-  width:250px ;
-}
-.footer{
-  position: relative;
-  padding: 50px 0;
-}
-.footer-inner{
+.copyright{
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-.footer-inner .col{
-  padding-right: 50px;
 }
