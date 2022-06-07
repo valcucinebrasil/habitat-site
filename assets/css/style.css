@@ -5,12 +5,14 @@
   margin: 0;
   box-sizing: border-box;
   outline: none;
+  text-decoration: none;
 }
 body{
   color: #fff;
   background-color: #000;
   font-family: 'Space Grotesk';
   width: 100%;
+  
 }
 h1,h2,h3,h4,h5,h6{
   font-family: 'botler';
@@ -64,6 +66,12 @@ header ul li a{
   display: flex;
   align-items: flex-end;
 }
+.link-whats{
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+  margin: 5px;
+}
 .logo{
   
   height: 35px;
@@ -71,7 +79,7 @@ header ul li a{
 }
 .habitat{
   height: 35px;
-  width:400px;
+  width:200px;
   min-width: 100%;
   max-width: 100%;
   gap: 32px;
@@ -376,4 +384,21 @@ footer:after{
 }
 .copyright{
   display: flex;
+}
+.quadro-sobre{
+  display: flex;
+  background-color: rgba(128, 122, 122, 0.205);
+  width: 950px;
+  height: 750px;
+  border-radius: 20px;
+  justify-content: center;
+  padding: 5px;
+  margin-left: 115px;
+}
+.sec4-inner-sobre{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  margin: 5px;
 }
