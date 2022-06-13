@@ -63,7 +63,7 @@ header ul li a{
   min-width: 100%;
   max-width: 100%;
   height: 100vh;
-  background: url(/img/slide/011.png) no-repeat;
+  background: url(/habitat-site/img/slide/011.jpg) no-repeat;
   background-size: cover;
   background-position: top;
   display: flex;
@@ -77,14 +77,12 @@ header ul li a{
 }
 .logo{
   
-  height: 35px;
+  height: 50px;
   width: 400px;
 }
 .habitat{
-  height: 35px;
-  width:200px;
-  min-width: 100%;
-  max-width: 100%;
+  height: 45px;
+  width:400px;
   gap: 32px;
 }
 .banner .text{
@@ -265,14 +263,14 @@ header ul li a{
   right: -30px;
 }
 .armentano{
-  width: 390px;
-  height: 460px;
+  width: 370px;
+  height: 320px;
   padding: 10px;
-  border-radius: 0px;
+  border-radius: 35px;
   margin: 5px;
 }
 .sec3{
-  padding: 150px 0 0;
+  padding: 10px 0 0;
 }
 .sec3 h2{
   text-transform: uppercase;
@@ -461,4 +459,63 @@ footer:after{
 .desc-banner{
   font-size: 23px;
   font-weight: 400;
+}
+/*Formulário*/
+form {
+  font-family: Verdana,Tahoma,sans-serif;
+  font-size: 17px;
+  background-color: #000000;
+  max-width: 500px;
+  padding: 140px;
+}
+
+h3 {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  color: #ffffff;
+  text-shadow: 5px 5px 5px black;
+}
+
+input, textarea {
+  width: 200px;
+  padding: 10px;
+  color: black;
+  margin-left: 20px;
+  margin-top: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border: 1px solid;
+}
+
+input:hover, textarea:hover, input:focus, textarea:focus {
+  border-color: #000066;
+  box-shadow: 5px 0px 9px #66FFFF;
+  background-color: #ffFFFF;
+  color: black;
+  font-weight: bold;
+}
+
+.enviar {
+  background-color: #ffffff;
+  height: 40px;
+  width: 100px;
+  font-weight: bold;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border: 1px solid;
+  color: black;
+}
+
+textarea {
+  width: 400px;
+  height: 120px;
+  line-height: 20px;
+  max-width: 400px;
+}
+
+form label {
+  margin-left: 20px;
+  color: #FFFFFF;
+  font-weight: bold;
 }

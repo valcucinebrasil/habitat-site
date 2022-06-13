@@ -29,66 +29,40 @@
                 </ul>
             </div>
     </header>
-        <section class="sec4" data-scene>
-            <div class="container">
-                <div class="container">
-                    <div class="sec4-inner" data-aos="fade-right">
-                        <h2>Novidades</h2>
-                    </div>
-                    <div class="sec4-boxes" data-aos="fade-up">
-                        <div class="box">
-                            <h6>Valcucine</h6>
-                            <div class="img"> 
-                                <img src="./img/temp/button/collection-img1.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="box">
-                            <h6>Wolf</h6>
-                            <div class="img"> 
-                                <img src="./img/temp/button/collection-img1.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="box">
-                            <h6>Subzero</h6>
-                            <div class="img"> 
-                                <img src="./img/temp/button/collection-img1.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="box">
-                            <h6>Cove</h6>
-                            <div class="img"> 
-                                <img src="./img/temp/button/collection-img1.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="box">
-                            <h6>Royal Prestige</h6>
-                            <div class="img"> 
-                                <img src="./img/temp/button/collection-img1.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="box">
-                            <h6>Future</h6>
-                            <div class="img"> 
-                                <img src="./img/temp/button/collection-img1.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="box">
-                            <h6>Future</h6>
-                            <div class="img"> 
-                                <img src="./img/temp/button/collection-img1.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="box">
-                            <h6>Future</h6>
-                            <div class="img"> 
-                                <img src="./img/temp/button/collection-img1.jpg" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
+        <section>  
+            <div class="formulario">
+                <form name="meu_form">
+
+                    <h3>Entre em contato</h3><br>
+
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nomeid" placeholder="Digite seu nome" required="required" name="nome" />
+                    <Br>
+                    <label for="fone">Telefone</label>
+                    <input type="tel" id="foneid" placeholder="(xx)xx-xx-xx-xx" name="fone" />
+                    <br>
+                    <label for="email">E-mail</label>
+                    <input type="email" id="emailid" placeholder="seuemail@mail.com" name="email" />
+                    
+                    <br>
+                    <label for="email">Escreva aqui</label>
+                    <textarea placeholder="Escreva aqui o seu texto"></textarea>
+                  
+                    <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+                  </form>
             </div>
+        
+        
+        
         </section>
 
+
+
+
+
+
+        <!--Rodapé inícia aqui-->
         <footer data-scene>
             <div class="container">
                 <div class="footer-inner">
@@ -130,6 +104,16 @@
             </div>
         </div>
     </main>
+<script>
+    function Enviar() {
 
+var nome = document.getElementById("nomeid");
+
+if (nome.value != "") {
+    alert('Obrigado sr(a) ' + nome.value + ' os seus dados foram encaminhados com sucesso');
+}
+
+}
+</script>
     </body>
 </html>
