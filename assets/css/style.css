@@ -526,3 +526,11 @@ form label {
   width: 270px;
   height:260px;
 }
+.upload{
+  width: 260px;
+}
+
+.img-box-init{
+  width: 350px;
+  height: 280px;
+}
