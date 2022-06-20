@@ -519,3 +519,10 @@ form label {
   color: #FFFFFF;
   font-weight: bold;
 }
+
+.arquitetos-box{
+  display: flex;
+  align-items: center;
+  width: 270px;
+  height:260px;
+}
