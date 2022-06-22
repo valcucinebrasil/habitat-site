@@ -48,7 +48,7 @@
                     <label for="email">Escreva aqui</label>
                     <textarea placeholder="Escreva aqui o seu texto"></textarea>
                   
-                    <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+                    <input type="submit" class="enviar" onclick="Enviar(send);" value="Enviar" />
                   
                   </form>
             </div>
@@ -115,5 +115,19 @@ if (nome.value != "") {
 
 }
 </script>
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
+<script>Email.send({
+    Host : "smtp.yourisp.com",
+    Username : "username",
+    Password : "password",
+    To : 'valcucine@valcucinebrasil.com.br',
+    From : "projetos3@valcucinebraisl.com.br",
+    Subject : "Show, você tem um novo orçamento",
+    Body : "And this is the body"
+}).then(
+  message => alert(message)
+);</script>
+
     </body>
 </html>
