@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./assets/css/style.css">
         <link rel="icon" type="image/x-icon" href="./img/flat/habitat-naturale.png">
-        <title>Habitat Naturale</title>
+    <title>Habitat Naturale</title>
     
     </head>
     <body>
@@ -33,7 +33,7 @@
 
     <section>
             <div class="container-form">
-            <form onsubmit="return false">
+            <form onsubmit="return false" method="post">
                 <div class="form-item">
                     <label for="">Name: </label><br>
                     <input type="text" name="name" placeholder="Nome" required>
@@ -46,14 +46,23 @@
                     <label for="">Email: </label><br>
                     <input type="text" name="email" placeholder="Email" required>
                 </div>
+                <div class="form-item">                   
+                    <label for="exampleFormControlSelect1">Selecione</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                            <option value="on">Dúvidas</option>
+                            <option value="on">Visita ao Showroom</option>
+                            <option value="on">Orçamento</option>
+                            <option value="on">Trabalhe Conosco</option>
+                            <option value="on">Pós-Venda</option>
+                        </select>                   
+                </div>
+                
                 <div class="form-item">
                     <label for="">Mensagem</label><br>
                     <textarea name="message" cols="30" rows="10" placeholder="Escreva aqui a sua mensagem....." required></textarea>   
-                </div>
-                <button onclick="send">Enviar e-mail</button>
-                
-    
-            </form>
+                </div>        
+                <button type="submit">Enviar e-mail</button>
+             </form>
         </div>
     </section>
         <!--Rodapé inícia aqui-->
@@ -98,7 +107,8 @@
             </div>
         </div>
     </main>
-<script src ="./assets/css/email.js"></script>
+<script src ="./assets/JS/email.js"></script>
 <script src ="https://smtpjs.com/v3/smtp.js"></script>
 </body>
 </html>
+
