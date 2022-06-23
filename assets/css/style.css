@@ -489,7 +489,9 @@ h1 p{
   text-align: center;
   padding-bottom: 5px;
 }
-
+h6{
+  text-align: center;
+}
 input, textarea {
   width: 390px;
   padding: 10px;
