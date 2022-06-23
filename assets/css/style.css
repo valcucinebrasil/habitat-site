@@ -484,7 +484,8 @@ container-form{
 }
 
 h1 {
-  color: #ffffff;
+  color: white; 
+  text-shadow: black 0.1em 0.1em 0.2em;
   text-align: center;
   padding-bottom: 5px;
 }
