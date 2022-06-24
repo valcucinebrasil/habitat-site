@@ -83,9 +83,8 @@ section:nth-child(even) .container .content{
     left: 0;
 }
 .logo{
-  
     height: 50px;
-    width: 350px;
+    width: 400px;
   }
   .habitat{
     height: 30px;
