@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -9,7 +10,8 @@
     <title>Habitat Naturale</title>
     
     </head>
-    <body>
+
+    <body>    
     <main>
         <header data-aos="fade-up">
             <div class="left-menu">
@@ -33,37 +35,44 @@
 
     <section>
             <div class="container-form">
-            <form onsubmit="return false" method="post">
+            <form action="https://formsubmit.co/projetos4@valcucinebrasil.com.br" method="POST">
+                
                 <div class="form-item">
                     <label for="">Name: </label><br>
-                    <input type="text" name="name" placeholder="Nome" required>
+                    <input type="text" name="Nome" placeholder="Nome" required>
                 </div>
                 <div class="form-item">
                     <label for="">Telefone: </label><br>
-                    <input type="text" name="phone" placeholder="Telefone" required>
+                    <input type="phone" name="Contato" placeholder="Telefone" required>
                 </div>
                 <div class="form-item">
                     <label for="">Email: </label><br>
-                    <input type="text" name="email" placeholder="Email" required>
+                    <input type="email" name="E-mail" placeholder="Email" required>
                 </div>
                 <div class="form-item">                   
                     <label for="exampleFormControlSelect1">Selecione</label>
-                    <select class="form-control" id="exampleFormControlSelect1">
-                            <option value="on">Dúvidas</option>
-                            <option value="on">Visita ao Showroom</option>
-                            <option value="on">Orçamento</option>
-                            <option value="on">Trabalhe Conosco</option>
-                            <option value="on">Pós-Venda</option>
+                    <select type="select" name="Objetivo" class="form-control" name="select" id="Select1">
+                            <option value="Dúvidas">Dúvidas</option>
+                            <option value="Visita ao showroom">Visita ao Showroom</option>
+                            <option value="Orçamento">Orçamento</option>
+                            <option value="Trabalhe Conosco">Trabalhe Conosco</option>
+                            <option value="Pós venda">Pós-Venda</option>
                         </select>                   
                 </div>
-                
+                <input type="hidden" name="Mensagem" value="projetos3@valcucinebrasil.com.br">
                 <div class="form-item">
                     <label for="">Mensagem</label><br>
                     <textarea name="message" cols="30" rows="10" placeholder="Escreva aqui a sua mensagem....." required></textarea>   
-                </div>        
+                </div>
+                <input type="hidden" name="_cc" value="projetos3@valcucinebrasil.com.br">
+                <input type="text" name="_honey" style="display:none">
+                <input type="hidden" name="_next" value="https://valcucinebrasil.github.io/habitat-site/contato.html">
+                <input type="hidden" name="_template" value="box">
                 <button type="submit">Enviar e-mail</button>
+                
              </form>
         </div>
+       
     </section>
         <!--Rodapé inícia aqui-->
         <footer data-scene>
