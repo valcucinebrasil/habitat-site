@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title></title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./assets/css/style.css">        
-        <link rel="icon" type="image/x-icon" href="./img/flat/habitat-naturale.png">
-        <title>Habitat Naturale</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  type="text/css" href="./assets/css/style.css">
+    <link rel="icon" type="image/x-icon" href="./img/flat/habitat-naturale.png">
+    <title>Habitat Naturale</title>
+</head>
     <body>
     <main>
         <header data-aos="fade-up">
@@ -16,7 +16,7 @@
                     <li><a href="./index.html">Home</a></li>
                     <li><a href="./colecoes.html">Coleções</a></li>                        
                     <li><a href="./arquitetos.html">Arquitetos</a></li>
-                   </ul> 
+                </ul> 
             </div>
             <div class="logo"><a href="./index.html">
                 <img class="habitat" src="./img/LOGO/Ativo 8.png" alt="Logo Habitat Naturale"></a>
@@ -29,24 +29,50 @@
                 </ul>
             </div>
     </header>
-    <!--Adicionar aqui os produtos-->
-        <section class="produtos">
-            <div class="produtos2">
-                <div class="colecoes">
-                    a</div>
-                <div class="colecoes">
-                    a</div>
-                <div class="colecoes">
-                    a</div>
-                <div class="colecoes">
-                    a</div>
-                <div class="colecoes">
-                    a</div>
+    <!--Adicionar conteúdo dos boxes-->
+<section class="sec2 left-right-sec" data-scene>
+    <div class="container">
+            <div class="sec2-container">
+                <div class="img">
+<div class="img" data-aos="fade-right"><img class="foto" src="./img/slide/001.png" alt=""></div>
+                </div>
+                <div class="text">
+                    <div class="text-inner" data-aos="fade-left">
+                    <h2>Artematica</h2>
+                    <p>Não há fronteira entre criatividade e inovação, entre a arte do jogo de cores e materiais e a matemática dos volumes puros.</p>
+                    <a href="./produto.html" class="btn">Leia Mais</a>
+                    </div>
             </div>
-        </section>
-        <!--ALterar conteúdo do corpo-->
+    <div>
+        
+    </div>
+    
+        </div>
+    </div>
+    </section>
+</section>
+<section class="sec2 left-right-sec" data-scene>
+<div class="container">
+    <div class="sec2-container">
+        <div class="text">
+            <div class="text-inner" data-aos="fade-right">
+            <h2>Genius Loci</h2>
+            <p>Uma gaveta que não é apenas um espaço funcional - resultado engenhoso permitido pela desmaterialização do tampo.</p>
+            <a href="#" class="btn">Leia Mais</a>
+            </div>
+        </div>
+        <div class="img" data-aos="fade-left">
+        <div class="img">
+        <img class="foto"src="./img/slide/004.png" alt="">
+        </div>
+        </div>
 
-        <footer data-scene>
+    </div>
+</div>
+</section>
+
+        <!--Alterar conteúdo do corpo boxes Finaliza Aqui-->
+<footer data-scene>
             <div class="container">
                 <div class="footer-inner">
                     <div class="col">
@@ -89,6 +115,29 @@
             </div>
         </div>
     </main>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://unpkg.com/rolly.js@0.2.1/dist/rolly.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+     
+    $('.sec-slider').slick({
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 2,
+      speed:1500
+    });
+    
+        const r = rolly({
+        view: document.querySelector('.app'),
+        native: true,
+        // other options
+        });
+        r.init();
+    
+    AOS.init({
+        duration:1500 //global duration
+    });
+    </script>
     </body>
 </html>
