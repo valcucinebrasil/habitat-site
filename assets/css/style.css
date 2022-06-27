@@ -542,3 +542,10 @@ button {
   display: flex;
   flex-direction: row;
 }
+.obrigado{
+  display: flex;
+  flex-direction: column;
+  padding: 140px;
+  align-items: center;
+  margin: 25px;
+}
