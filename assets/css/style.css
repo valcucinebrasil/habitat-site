@@ -549,3 +549,31 @@ button {
   align-items: center;
   margin: 25px;
 }
+.logo-wolf{
+  height: 50px;
+  padding: 10px;
+  margin: 60px;
+  
+}
+.logo-subzero{
+  height: 50px;
+  padding: 10px;
+  margin: 59px;
+}
+.logo-cove{
+  height: 50px;
+  padding: 10px;
+  margin: 59px;
+}
+.logo-valcucine{
+  text-align: center;
+  height: 60px;
+  padding: 10px;
+  margin: 40px;
+  
+}    
+.logo-royal{
+  height: 110px;
+  margin-left: 80px;
+  margin-top: 5px;
+}
