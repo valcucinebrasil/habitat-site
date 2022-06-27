@@ -233,6 +233,7 @@ header ul li a{
 .foto{
   width: 620px;
   height: 350px;
+  border-radius: 10px;
 }
 .sec2 .text-inner{
   position: relative;
@@ -540,7 +541,4 @@ button {
 .container-form2{
   display: flex;
   flex-direction: row;
-}
-.foto{
-  border-radius: 10px;
 }
