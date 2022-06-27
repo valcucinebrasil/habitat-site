@@ -541,3 +541,6 @@ button {
   display: flex;
   flex-direction: row;
 }
+.foto{
+  border-radius: 10px;
+}
