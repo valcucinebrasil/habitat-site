@@ -6,6 +6,7 @@
   outline: none;
   text-decoration: none;
   
+  
 }
 body{
   color: #fff;
@@ -13,6 +14,9 @@ body{
   font-family: 'Space Grotesk';
   width: 100%;
   text-decoration: none;
+  min-width: 100vw;
+  min-height: 100vh;
+
 }
 h1,h2,h3,h4,h5,h6{
   font-family: 'botler';
@@ -541,6 +545,9 @@ button {
 .container-form2{
   display: flex;
   flex-direction: row;
+  align-items: center;
+  width: 1000px;
+  gap: 150px;
 }
 .obrigado{
   display: flex;
@@ -578,4 +585,32 @@ button {
   height: 110px;
   margin-left: 80px;
   margin-top: 5px;
+}
+
+.boxes-container{
+  padding-top: 25px;
+}
+
+.mapa{
+  border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 900px) and (max-width:1200px){
+  section{
+    position:absolute;
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    z-index:-1;
+  }
 }
