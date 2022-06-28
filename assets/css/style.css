@@ -142,7 +142,7 @@ header ul li a{
   padding: 30px 0;
 }
 .brand-logo-inner{
-
+  max-width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -175,6 +175,7 @@ header ul li a{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  max-width: 100%;
 
 }
 .sec1 .text{
@@ -266,14 +267,17 @@ header ul li a{
   right: -30px;
 }
 .armentano{
-  width: 370px;
+  width: 330px;
   height: 320px;
   padding: 10px;
   border-radius: 35px;
   margin: 5px;
+  max-width: 100%;
+  max-height: 100%;
 }
 .sec3{
   padding: 10px 0 0;
+  
 }
 .sec3 h2{
   text-transform: uppercase;
@@ -359,6 +363,7 @@ footer:after{
   flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 90px;
+  
 }
 .box{
   position: relative;
@@ -370,6 +375,7 @@ footer:after{
   border: 1px solid #fff;
   margin-bottom: 40px;
   overflow: hidden;
+  
 }
 .box h6{
   font-family: 'Space Grotesk';
@@ -384,6 +390,7 @@ footer:after{
   z-index: -1;
   opacity: 0;
   transform: all ease 1s;
+  
 }
 .box:hover .img{
   opacity: 1;
@@ -408,6 +415,7 @@ footer:after{
   flex-direction: row;
   padding: 35px;
   align-items: center;
+  
 }
 .quadro-sobre-filho0{
   display: flex;
@@ -470,6 +478,7 @@ footer:after{
   align-items: center;
   width: 270px;
   height:260px;
+  max-width: 100%;
 }
 .upload{
   width: 260px;
